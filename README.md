@@ -69,6 +69,9 @@ See also this [cheat sheet](https://www.markdownguide.org/cheat-sheet/) for more
 ```
 jekyll --version
 ```
+
+- If you don't have Jekyll installed, see [this guide to install Ruby and Jekyll](https://collectionbuilder.github.io/cb-docs/docs/software/ruby/)
+
 - Download [this Gemfile](https://github.com/digbmc/git-hub-ws/blob/gh-pages/Gemfile) and add it to the root folder of your repository
 
 - Install the necessary dependencies for this site by running:
@@ -88,3 +91,13 @@ bundle exec jekyll serve
 - As you edit your site, this preview will update
 - If you make changes to your `_config.yml` file, you'll need to stop the server (`ctrl-c`) and run it again: `bundle exec jekyll serve`
 - When you're done working, be sure to stop your server before you close your laptop
+
+### Customizing your site
+
+- Change your site's title, description, and author settings in the _config.yml file - look at the README for the Dinky theme (or whichever you choose) to learn how to configure other settings: https://github.com/pages-themes/dinky (NB - other themes will handle this differently)
+
+- Try out other supported themes: https://pages.github.com/themes/
+
+- Add a document called 'index.md' to your repository and that content will override your README.md to become the home page
+	
+- If you want, check out this tutorial for GitHub pages: https://docs.github.com/en/pages/quickstart
